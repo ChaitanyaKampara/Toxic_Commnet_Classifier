@@ -22,3 +22,11 @@ For insult create a df called Insulting_comment_df it contains only 3 columns : 
 code : Insulting_comment_df=df.loc[:,['id','comment_text','insult']]
 similarly create for every column
 # 7.) WORDCLOUD
+Used to visualize data which words are repeting more those will be printed largely
+# 8.) BALENCING COLUMNS
+we are fixing or restriicting only 5000 rows for each column 
+we are creating 2 columns as o/p for every 1 column one is labelled as YES and other is labelled as NO
+total we are creating 10 columns at the end we are combining every NO and YES of same column to combined_column
+# 9.) MODEL IMPLEMENTATION
+# 10.) MODEL_EVALUTION
+# 11.) CHECKING COMMENT TOXICNESS
