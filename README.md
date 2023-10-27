@@ -57,7 +57,7 @@ f1_score
 precision_score
 recall_score
 precision_recall_curve
-fbeta_score
+fbeta_score 
 confusion_matrix
 roc_auc_score
 roc_curve
