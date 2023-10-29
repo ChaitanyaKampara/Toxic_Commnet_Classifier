@@ -5,7 +5,7 @@ import all necessary libraries like :
 pandas <br>
 numpy <br>
 seaborn <br>
-all nlp libraries like :
+all nlp libraries like : <br>
 nltk <br>
 stopwords <br>
 wordnetlemmatizer <br>
@@ -13,26 +13,27 @@ word_tokenize,sent_tokenize <br>
 PorterStemmer,LancasterStemmer,SnowballStemmer 
 
 # 2.) NULL VALUES
-Check null values o/p = There are no values present in dataset
+Check null values <br>
+o/p = There are no values present in dataset
 
 # 3.) CHECK VALUE_COUNTS 
-Check value counts for each column which shows the nature of the comment
-The o/p will be 0 , 1 for every checked column 
-0 : NO
-1 : YES
+Check value counts for each column which shows the nature of the comment <br>
+The o/p will be 0 , 1 for every checked column <br>
+0 : NO<br>
+1 : YES<br>
 
 # 4.) DATA VISUALIZATION
-Before visualizing 1st extract new dataset(sentencetype_graph) from the given dataset(df)
+Before visualizing 1st extract new dataset(sentencetype_graph) from the given dataset(df) <br>
 sentencetype_graph = df.iloc[:,2:].sum() [indicates all rows from 3rd column]
 
 # 5.) CLEAN DATA
-There are so many unwanted charecters , symbols etc in df[comment_text] for cleaning this we are
-importing re :
-Removing: alphanumeric , punchuation_lower , remove(/n) , remove_non_ascii 
+There are so many unwanted charecters , symbols etc in df[comment_text] for cleaning this we are => <br>
+importing re : <br>
+Removing: alphanumeric , punchuation_lower , remove(/n) , remove_non_ascii <br>
 
 # 6.) CREATE SEPARATE DATAFRAMES FOR EACH COLUMN
-For insult column create a df called Insulting_comment_df it contains only 3 columns : ['id','comment_text','insult']
-code : Insulting_comment_df=df.loc[:,['id','comment_text','insult']]
+For insult column create a df called Insulting_comment_df it contains only 3 columns : ['id','comment_text','insult'] <br>
+code : Insulting_comment_df=df.loc[:,['id','comment_text','insult']] <br>
 similarly create for every column
 
 # 7.) WORDCLOUD
