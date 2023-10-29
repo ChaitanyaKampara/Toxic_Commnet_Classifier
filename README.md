@@ -40,29 +40,29 @@ similarly create for every column
 Used to visualize data which words are repeting more those will be printed largely
 
 # 8.) BALENCING COLUMNS
-we are fixing or restriicting only 5000 rows for each column 
-we are creating 2 columns as o/p for every 1 column one is labelled as YES and other is labelled as NO
+we are fixing or restriicting only 5000 rows for each column <br>
+we are creating 2 columns as o/p for every 1 column one is labelled as YES and other is labelled as NO <br>
 total we are creating 10 columns at the end we are combining every NO and YES of same column to combined_column
 
 # 9.) MODEL IMPLEMENTATION
-Import new libraries responsible for model implementations :
-LOGISTIC REGRESSION
-SVC[LINEAR]
-NAIVE_BAYES [MULTINOMIALNB , BERNOULLINB]
-RANDOM_FOREST
-KNN
+Import new libraries responsible for model implementations : <br>
+LOGISTIC REGRESSION <br>
+SVC [ LINEAR ] <br>
+NAIVE_BAYES [MULTINOMIALNB , BERNOULLINB] <br>
+RANDOM_FOREST <br>
+KNN<br>
 
 # 10.) MODEL_EVALUTION
-METRICS resposible for deciding performance :
-f1_score
-precision_score
-recall_score
-precision_recall_curve
-fbeta_score 
-confusion_matrix
-roc_auc_score
-roc_curve
-
+METRICS resposible for deciding performance : <br>
+f1_score <br>
+precision_score <br>
+recall_score <br>
+precision_recall_curve <br>
+fbeta_score <br>
+confusion_matrix <br>
+roc_auc_score <br>
+roc_curve <br>
+ <br>
 calculate f1score for every model and check which models accuracy is best
 
 # 11.) CHECKING COMMENT TOXICNESS
