@@ -2,14 +2,14 @@
 
 # 1.) IMPORTING LIBRARIES
 import all necessary libraries like :
-pandas \n
-numpy \n
-seaborn \n
+pandas <br>
+numpy <br>
+seaborn <br>
 all nlp libraries like :
-nltk \n
-stopwords \n
-wordnetlemmatizer \n
-word_tokenize,sent_tokenize \n
+nltk <br>
+stopwords <br>
+wordnetlemmatizer <br>
+word_tokenize,sent_tokenize <br>
 PorterStemmer,LancasterStemmer,SnowballStemmer 
 
 # 2.) NULL VALUES
