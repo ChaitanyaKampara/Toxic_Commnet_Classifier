@@ -31,7 +31,7 @@ importing re :
 Removing: alphanumeric , punchuation_lower , remove(/n) , remove_non_ascii 
 
 # 6.) CREATE SEPARATE DATAFRAMES FOR EACH COLUMN
-For insult create a df called Insulting_comment_df it contains only 3 columns : ['id','comment_text','insult']
+For insult column create a df called Insulting_comment_df it contains only 3 columns : ['id','comment_text','insult']
 code : Insulting_comment_df=df.loc[:,['id','comment_text','insult']]
 similarly create for every column
 
