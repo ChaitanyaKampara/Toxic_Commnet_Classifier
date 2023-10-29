@@ -1,16 +1,16 @@
 # Toxic_Commnet_Classifier
 
 # 1.) IMPORTING LIBRARIES
-import all necessary libraries like 
-pandas 
-numpy
-seaborn 
-all nlp libraries like
-nltk 
-stopwords
-wordnetlemmatizer
-word_tokenize,sent_tokenize
-PorterStemmer,LancasterStemmer,SnowballStemmer
+import all necessary libraries like :
+pandas \n
+numpy \n
+seaborn \n
+all nlp libraries like :
+nltk \n
+stopwords \n
+wordnetlemmatizer \n
+word_tokenize,sent_tokenize \n
+PorterStemmer,LancasterStemmer,SnowballStemmer 
 
 # 2.) NULL VALUES
 Check null values o/p = There are no values present in dataset
