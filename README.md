@@ -6,7 +6,7 @@ pandas <br>
 numpy <br>
 seaborn <br>
 all nlp libraries like : <br>
-nltk <br>
+nltk <br> 
 stopwords <br>
 wordnetlemmatizer <br>
 word_tokenize,sent_tokenize <br>
