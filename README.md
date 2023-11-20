@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-"# Customer_Personality_Analysis" 
+
+
 "# CUSTOMER_PERSONALITY_ANALYSIS" 
 =======
 # Toxic_Commnet_Classifier
