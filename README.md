@@ -11,7 +11,7 @@ numpy <br>
 seaborn <br> 
 all nlp libraries like : <br>
 nltk <br> 
-stopwords <br>
+stopwords <br> 
 wordnetlemmatizer <br>
 word_tokenize,sent_tokenize <br> 
 PorterStemmer,LancasterStemmer,SnowballStemmer 
